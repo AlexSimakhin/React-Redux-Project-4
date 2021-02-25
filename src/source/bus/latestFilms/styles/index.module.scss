@@ -1,0 +1,30 @@
+.films {
+
+  &__row {
+    cursor: pointer; 
+    
+    td {
+      max-width: 130px;
+    }
+
+    td:last-child {
+      max-width: 250px;
+    }
+  }
+
+  &__img {
+    max-width: 100px;
+  }
+}
+
+.tytl {
+ // margin-top: 30px;
+  max-width: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+  border-radius: 5px !important;
+}
+
+
